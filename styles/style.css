@@ -411,5 +411,18 @@ button {
     .choose-card {
         width: 81.35%;
     }
+    .newsletter-container {
+        flex-direction: column;
+    }
+    .newsletter-image img {
+        width: 50%;
+        position: relative;
+        top: 16rem;
+        left: 12rem;
+
+    }
+    .newsletter-image {
+        width: 100%;
+    }
 
 }
