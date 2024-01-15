@@ -155,7 +155,8 @@ button {
 
 .popular-text p,
 .destination-text p,
-.choose p {
+.choose p,
+.newsletter-form p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -240,6 +241,7 @@ button {
 .choose {
     margin-top: 9rem;
 }
+
 .choose h2,
 .choose-text {
     text-align: center;
@@ -252,9 +254,11 @@ button {
     padding: 2rem;
     border-radius: 1rem;
 }
-.choose-card *{
+
+.choose-card * {
     margin-bottom: 2rem;
 }
+
 .choose-upper {
     display: flex;
     gap: 1.2rem;
@@ -280,13 +284,63 @@ button {
     margin-top: 1.2rem;
     justify-content: center;
 }
+
 .choose-lower {
     display: flex;
     justify-content: center;
 }
 
 
+/* newsletter section styles */
 
+.newsletter {
+    margin-top: 9rem;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    align-items: flex-start;
+}
+
+.newsletter-form h4 {
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.newsletter-form input {
+    display: block;
+    border-radius: .5rem;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    padding: 1rem 1.15rem;
+    width: 24.5rem;
+}
+
+.newsletter-form img {
+    margin-bottom: 1.2rem;
+    
+}
+
+.newsletter-image {
+    border-radius: 1rem;
+    background-image: url('../Images/newsletter.png');
+    background-repeat: no-repeat;
+    background-size: 42rem;
+    width:50%;
+    height: 26rem;
+}
+
+.newsletter-image img {
+    position: relative;
+    top: 12rem;
+    left: 15rem;
+}
 
 
 
@@ -348,10 +402,12 @@ button {
         width: 22rem;
     }
 
-    .choose-upper,.choose-lower {
+    .choose-upper,
+    .choose-lower {
         flex-direction: column;
         align-items: center;
     }
+
     .choose-card {
         width: 81.35%;
     }
