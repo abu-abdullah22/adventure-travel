@@ -144,14 +144,18 @@ button {
     gap: 1rem;
 }
 
-.popular-text h2, .destination-text h2 {
+.popular-text h2,
+.destination-text h2,
+.choose h2 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 1.3rem;
 }
 
-.popular-text p, .destination-text p {
+.popular-text p,
+.destination-text p,
+.choose p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -188,18 +192,22 @@ button {
 .destination-container {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
-.destination-1{
+.destination-container img {
+    object-fit: cover;
+}
+
+.destination-1 {
     grid-column: 1 / span 6;
     grid-row: 1 / span 6;
 }
 
-.destination-2{
+.destination-2 {
     grid-column: 7 / span 6;
-    grid-row:1 / span 1;
+    grid-row: 1 / span 1;
 }
 
 .destination-3 {
@@ -212,7 +220,7 @@ button {
     grid-row: 2 / span 1;
 }
 
-.destination-5{
+.destination-5 {
     grid-column: 10 / span 3;
     grid-row: 2 / span 1;
 }
@@ -222,10 +230,61 @@ button {
     grid-row: 3 / span 1;
 }
 
-.destination-7{
-    grid-column: 6 / span 7 ;
+.destination-7 {
+    grid-column: 6 / span 7;
     grid-row: 3 / span 1;
 }
+
+
+/* choose section styles */
+.choose {
+    margin-top: 9rem;
+}
+.choose h2,
+.choose-text {
+    text-align: center;
+}
+
+.choose-card {
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.choose-card *{
+    margin-bottom: 2rem;
+}
+.choose-upper {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: space-between;
+}
+
+.left-card {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+}
+
+.right-card {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 50%;
+}
+
+.lower-card {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+    margin-top: 1.2rem;
+    justify-content: center;
+}
+.choose-lower {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
@@ -275,7 +334,26 @@ button {
         width: 8rem;
     }
 
-    .popular-main{
+    .popular-main {
         flex-direction: column;
     }
+
+    .destination-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-container img {
+        width: 22rem;
+    }
+
+    .choose-upper,.choose-lower {
+        flex-direction: column;
+        align-items: center;
+    }
+    .choose-card {
+        width: 81.35%;
+    }
+
 }
