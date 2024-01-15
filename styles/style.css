@@ -221,4 +221,8 @@ button {
         padding: .25rem;
         width: 8rem;
     }
+
+    .popular-main{
+        flex-direction: column;
+    }
 }
