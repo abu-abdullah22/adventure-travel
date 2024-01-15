@@ -10,16 +10,17 @@
 .container {
     width: 81.35%;
     max-width: 73.125rem;
-    margin: ;
+    margin: 0 auto;
+    ;
 }
 
 
 /* nav section styles */
 .nav-container {
     display: flex;
-    margin: 3.25rem auto;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3.25rem;
 }
 
 .nav-title {
@@ -60,5 +61,51 @@
 }
 
 .nav-main a:hover {
-    color:#131318;
+    color: #131318;
+}
+
+
+/* banner section styles  */
+
+.banner-container {
+    margin-top: 3.06rem;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/banner.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 31.25rem;
+    border-radius: 1rem;
+}
+
+.banner-text {
+    text-align: center;
+    padding: 6.625rem 15.7rem 3rem;
+
+}
+
+.banner-text h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+}
+
+.banner-text p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    /* 162.5% */
+}
+
+
+@media screen and (max-width:600px) {
+    .nav-title {
+        font-size: 1.3rem;
+    }
+
+    .nav-title {
+        margin-right: 3rem;
+    }
 }
