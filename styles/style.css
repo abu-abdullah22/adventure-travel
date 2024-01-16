@@ -551,11 +551,11 @@ footer {
     }
 
     .footer-container {
-        padding: .5rem;
+        padding: 1rem;
     }
 
     .footer-container .nav-title {
-        margin: 1rem;
+        margin: 0rem;
     }
 
     .footer-container .line {
