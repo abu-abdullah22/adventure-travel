@@ -446,7 +446,7 @@ footer {
 }
 
 .footer-container .nav-title {
-    margin: 0 37rem;
+    margin: 0 37.5rem;
 }
 
 .footer-container .nav-title h3 {
@@ -551,16 +551,17 @@ footer {
     }
 
     .footer-container {
-        padding: 1rem;
+        padding: .5rem;
     }
 
     .footer-container .nav-title {
-        margin: 0;
+        margin: 1rem;
     }
 
     .footer-container .line {
         width: 100%;
     }
+
 
     .place-container {
         flex-direction: column;
