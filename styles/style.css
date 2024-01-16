@@ -380,7 +380,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 2rem;
     margin-top: 6rem;
+}
+
+.place-text {
+    width: 48%;
 }
 
 .place-p {
@@ -603,7 +608,13 @@ footer {
     .deal-container-2 .deal {
         margin-right: 2rem;
     }
-
+    .iframe {
+        width: 400px;
+    }
+    .place-text {
+        width: 80%;
+    }
+   
 
 
 
