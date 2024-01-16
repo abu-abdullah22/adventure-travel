@@ -292,6 +292,15 @@ button {
     display: flex;
     justify-content: center;
 }
+/* deal section styles */
+.deal-container-1 {
+    
+}
+
+
+
+
+
 
 /* place section styles  */
 .place-container {
@@ -393,6 +402,8 @@ footer {
     margin-right: 3rem;
     font-size: 2rem;
 }
+
+
 
 
 
