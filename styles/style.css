@@ -37,6 +37,8 @@
 
 .nav-main ul {
     list-style-type: none;
+    max-height: 70px;
+    transition: all .5s;
 }
 
 .nav-main li {
@@ -62,7 +64,16 @@
 .nav-main a:hover {
     color: #131318;
 }
-
+nav {
+    position: relative;
+}
+#checkbox {
+    display: none;
+}
+.menu-icon {
+    display: none;
+    visibility: hidden;
+}
 
 /* banner section styles  */
 
@@ -512,11 +523,18 @@ footer {
     .nav-title {
         font-size: 1.3rem;
     }
-
+    .menu-icon{
+        visibility: visible;
+    }
     .nav-title {
         margin-right: 3rem;
     }
-
+    nav {
+        display: none;
+    }
+    #checkbox{
+        display: none;
+    }
     .banner-text {
         padding: .5rem;
     }
