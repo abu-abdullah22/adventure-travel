@@ -144,10 +144,7 @@ button {
     gap: 1rem;
 }
 
-.popular-text h2,
-.destination-text h2,
-.choose h2,
-.place-container h4 {
+h2 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
@@ -159,7 +156,8 @@ button {
 .choose p,
 .newsletter-form p,
 .footer-container p,
-.place-container .place-pp {
+.place-container .place-pp,
+.deal p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -292,11 +290,67 @@ button {
     display: flex;
     justify-content: center;
 }
+
 /* deal section styles */
-.deal-container-1 {
-    
+.deal-section h2,
+.deal-p {
+    text-align: center;
 }
 
+.deal {
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 30rem;
+    height: 18rem;
+    padding: 1rem;
+}
+
+.deal h5 {
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+
+.deal-section .container {
+    height: 31.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.deal .deal-price {
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.deal-container-1 {
+    background-image: url('../Images/Group 39.png');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.deal-container-1 .deal {
+    margin-right: 2.25rem;
+}
+.deal-container-2 {
+    background-image: url('../Images/Group 40.png');
+    display: flex;
+    align-items: center;
+}
+.deal-container-2 .deal{
+    margin-left: 2rem;
+}
+.deal-container-3 {
+    background-image: url('../Images/Group 39.png');
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.deal-container-3 .deal {
+    margin-right: 2.25rem;
+}
 
 
 
@@ -314,6 +368,7 @@ button {
     font-weight: 700;
     line-height: 1.22rem;
     /* 162.5% */
+    margin-bottom: 1rem;
 }
 
 .place-container .fa-circle {
@@ -510,9 +565,10 @@ footer {
     .place-container {
         flex-direction: column;
     }
+
     .place-image img {
         width: 100%;
-        margin-top:2rem;
+        margin-top: 2rem;
     }
 
 }
