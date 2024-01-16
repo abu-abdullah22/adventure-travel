@@ -157,7 +157,7 @@ h2 {
 .newsletter-form p,
 .footer-container p,
 .place-container .place-pp,
-.deal p {
+.deal p, .about-text p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -400,6 +400,26 @@ h2 {
 .place-container .fa-circle {
     color: black;
 }
+/* about section styles */
+.about {
+    margin: 5rem 0;
+}
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.about-text {
+    width: 50%;
+    text-align: center;
+}
+
+.about-image img {
+    border-radius: 1rem;
+}
+
+
 
 /* newsletter section styles */
 
@@ -614,7 +634,16 @@ footer {
     .place-text {
         width: 80%;
     }
-   
+    .about-container {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .about-image img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+    }
 
 
 
