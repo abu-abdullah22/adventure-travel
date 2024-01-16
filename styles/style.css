@@ -303,7 +303,7 @@ h2 {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
     width: 30rem;
-    height: 18rem;
+    height: 20rem;
     padding: 1rem;
 }
 
@@ -570,5 +570,14 @@ footer {
         width: 100%;
         margin-top: 2rem;
     }
+    .deal-container-1 .deal ,.deal-container-3 .deal{
+        margin-left: 2rem;
+    }
+    .deal-container-2 .deal {
+        margin-right: 2rem;
+    }
+
+
+     
 
 }
