@@ -579,9 +579,8 @@ footer {
     .newsletter-container {
         flex-direction: column;
     }
-
-    .newsletter-form {
-        padding: .5rem;
+    .newsletter-form img {
+        width: 50%;
     }
 
     .newsletter-image img {
@@ -591,7 +590,12 @@ footer {
         left: 12rem;
 
     }
-
+    .newsletter-form {
+        width: 100%;
+    }
+    .newsletter-form input {
+        width: 100%;
+    }
     .newsletter-image {
         width: 100%;
     }
