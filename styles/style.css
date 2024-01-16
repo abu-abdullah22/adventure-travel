@@ -556,6 +556,7 @@ footer {
 
     .footer-container .nav-title {
         margin: 0rem;
+        gap: .5rem;
     }
 
     .footer-container .line {
