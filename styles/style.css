@@ -146,7 +146,8 @@ button {
 
 .popular-text h2,
 .destination-text h2,
-.choose h2 {
+.choose h2,
+.place-container h4 {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
@@ -156,7 +157,9 @@ button {
 .popular-text p,
 .destination-text p,
 .choose p,
-.newsletter-form p {
+.newsletter-form p,
+.footer-container p,
+.place-container .place-pp {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
@@ -290,6 +293,23 @@ button {
     justify-content: center;
 }
 
+/* place section styles  */
+.place-container {
+    display: flex;
+    margin-top: 6rem;
+}
+
+.place-p {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.22rem;
+    /* 162.5% */
+}
+
+.place-container .fa-circle {
+    color: black;
+}
 
 /* newsletter section styles */
 
@@ -302,6 +322,12 @@ button {
     justify-content: space-between;
     gap: 1.2rem;
     align-items: flex-start;
+}
+
+.newsletter-form {
+    border-radius: 1rem;
+    border: 1px solid #FF5400;
+    padding: 2.5rem;
 }
 
 .newsletter-form h4 {
@@ -324,7 +350,7 @@ button {
 
 .newsletter-form img {
     margin-bottom: 1.2rem;
-    
+
 }
 
 .newsletter-image {
@@ -332,14 +358,40 @@ button {
     background-image: url('../Images/newsletter.png');
     background-repeat: no-repeat;
     background-size: 42rem;
-    width:50%;
-    height: 26rem;
+    width: 50%;
+    height: 24rem;
 }
 
 .newsletter-image img {
     position: relative;
     top: 12rem;
-    left: 15rem;
+    left: 18rem;
+    width: 50%;
+}
+
+/* footer section styles */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 0;
+    padding: 6rem;
+    margin-top: 4rem;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container .nav-title {
+    margin: 0 37rem;
+}
+
+.footer-container .nav-title h3 {
+    font-size: 2rem;
+}
+
+.social-icon a {
+    margin-right: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -411,18 +463,45 @@ button {
     .choose-card {
         width: 81.35%;
     }
+
     .newsletter-container {
         flex-direction: column;
     }
+
+    .newsletter-form {
+        padding: .5rem;
+    }
+
     .newsletter-image img {
         width: 50%;
         position: relative;
-        top: 16rem;
+        top: 14rem;
         left: 12rem;
 
     }
+
     .newsletter-image {
         width: 100%;
+    }
+
+    .footer-container {
+        padding: 1rem;
+    }
+
+    .footer-container .nav-title {
+        margin: 0;
+    }
+
+    .footer-container .line {
+        width: 100%;
+    }
+
+    .place-container {
+        flex-direction: column;
+    }
+    .place-image img {
+        width: 100%;
+        margin-top:2rem;
     }
 
 }
