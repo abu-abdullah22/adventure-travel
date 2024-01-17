@@ -605,7 +605,7 @@ footer {
         width: 50%;
         position: relative;
         top: 14rem;
-        left: 12rem;
+        left: 10rem;
 
     }
     .newsletter-form {
@@ -651,7 +651,7 @@ footer {
         margin-right: 2rem;
     }
     .iframe {
-        width: 400px;
+        width: 300px;
     }
     .place-text {
         width: 80%;
